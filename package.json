@@ -1,0 +1,27 @@
+{
+  "name": "backlog-relay",
+  "version": "1.0.0",
+  "description": "Universal API wrapper for ticket management across multiple platforms",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@gitbeaker/rest": "^39.0.0",
+    "@octokit/rest": "^20.0.0",
+    "axios": "^1.6.0",
+    "jira.js": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
